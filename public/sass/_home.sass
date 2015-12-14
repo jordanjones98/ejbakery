@@ -1,5 +1,12 @@
 $container-color: #efe5c3
 $outline-color: #a78d2f
+
+=container-color($height)
+  background-color: $container-color
+  outline: 2px solid $outline-color
+  outline-offset: 5px
+  height: $height
+
 body
   background-image: url("img/background1.jpg")
   background-repeat: repeat
@@ -45,17 +52,11 @@ hr.style
   padding: 10px
   margin: 15px
   margin-left: 0px
-  height: 45%
-  background-color: $container-color
-  outline: 2px solid $outline-color
-  outline-offset: 5px
+  +container-color(45%)
 .leftcontain
   padding: 10px
   margin: 15px
   margin-right: 0px
-  height: 45%
-  background-color: $container-color
-  outline: 2px solid $outline-color
-  outline-offset: 5px
+  +container-color(45%)
 p.deals
   text-align: center

@@ -59,20 +59,20 @@ hr.style {
   padding: 10px;
   margin: 15px;
   margin-left: 0px;
-  height: 45%;
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
+  height: 45%;
 }
 
 .leftcontain {
   padding: 10px;
   margin: 15px;
   margin-right: 0px;
-  height: 45%;
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
+  height: 45%;
 }
 
 p.deals {
