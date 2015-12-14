@@ -57,7 +57,18 @@ hr.style {
 
 .rightcontain {
   padding: 10px;
-  margin-right: 15px;
+  margin: 15px;
+  margin-left: 0px;
+  height: 45%;
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+}
+
+.leftcontain {
+  padding: 10px;
+  margin: 15px;
+  margin-right: 0px;
   height: 45%;
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
