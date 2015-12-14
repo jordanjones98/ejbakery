@@ -1,14 +1,19 @@
 $container-color: #efe5c3
 $outline-color: #a78d2f
+$footer-color: #CEB250
+$background-color: #f4f0e7
 
-=container-color($height)
+// COLOR TEMPLATE http://colllor.com/a78d2f
+
+=container($height, $margin)
   background-color: $container-color
   outline: 2px solid $outline-color
   outline-offset: 5px
   height: $height
+  margin: $margin
 
 body
-  background-image: url("img/background1.jpg")
+  background-color: $background-color
   background-repeat: repeat
 nav
   margin: 0 auto
@@ -25,8 +30,9 @@ li a
   padding: 8px
   position: relative
   text-align: center
+  padding-bottom: 4px
 li a:hover
-  color: grey
+  color: $outline-color
 li a::before
   content: ""
   position: absolute
@@ -34,7 +40,7 @@ li a::before
   height: 2px
   bottom: 0
   left: 0
-  background-color: grey
+  background-color: $outline-color
   visibility: hidden
   -webkit-transform: scaleX(0)
   transform: scaleX(0)
@@ -49,14 +55,22 @@ hr.style
   height: 1px
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))
 .rightcontain
-  padding: 10px
-  margin: 15px
-  margin-left: 0px
-  +container-color(45%)
+  +container(45%, 13px)
 .leftcontain
-  padding: 10px
-  margin: 15px
-  margin-right: 0px
-  +container-color(45%)
+  +container(45%, 13px)
+.midcontain
+  +container(30%, 15px)
+  padding: 15px
 p.deals
+  text-align: center
+.footer
+  width: 100%
+  height: 200px
+  position: relative
+  bottom: 0
+  left: 0
+  background-color: $footer-color
+  text-align: center
+.footercontain
+.center
   text-align: center

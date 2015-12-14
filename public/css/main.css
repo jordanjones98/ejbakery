@@ -1,5 +1,5 @@
 body {
-  background-image: url("img/background1.jpg");
+  background-color: #f4f0e7;
   background-repeat: repeat;
 }
 
@@ -22,10 +22,11 @@ li a {
   padding: 8px;
   position: relative;
   text-align: center;
+  padding-bottom: 4px;
 }
 
 li a:hover {
-  color: grey;
+  color: #a78d2f;
 }
 
 li a::before {
@@ -35,7 +36,7 @@ li a::before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: grey;
+  background-color: #a78d2f;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -56,26 +57,45 @@ hr.style {
 }
 
 .rightcontain {
-  padding: 10px;
-  margin: 15px;
-  margin-left: 0px;
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 45%;
+  margin: 13px;
 }
 
 .leftcontain {
-  padding: 10px;
-  margin: 15px;
-  margin-right: 0px;
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 45%;
+  margin: 13px;
+}
+
+.midcontain {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 30%;
+  margin: 15px;
+  padding: 15px;
 }
 
 p.deals {
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background-color: #CEB250;
+  text-align: center;
+}
+
+.center {
   text-align: center;
 }
 
