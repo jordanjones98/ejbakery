@@ -1,8 +1,10 @@
 $container-color: #efe5c3
+$footer-font-color: #efe5c3
 $outline-color: #a78d2f
 $footer-color: #221202
 $matching-color-as-logo: #221202
 $background-color: #f4f0e7
+$foot-hover: #d6d6d6
 @import url(https://fonts.googleapis.com/css?family=Rochester)
 
 // COLOR SCHEME http://colllor.com/a78d2f
@@ -90,3 +92,27 @@ h1.deals
   width: 317px
   height: 125px
   padding-bottom: 10px
+a.footlink
+  color: white
+  text-decoration: none
+  position: relative
+  padding-bottom: 3px
+a.footlink:hover
+  color: $footer-font-color
+a.footlink::before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 2px
+  bottom: 0
+  left: 0
+  background-color: $footer-font-color
+  visibility: hidden
+  -webkit-transform: scaleX(0)
+  transform: scaleX(0)
+  -webkit-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+a.footlink:hover::before
+  visibility: visible
+  -webkit-transform: scaleX(1)
+  transform: scaleX(1)
