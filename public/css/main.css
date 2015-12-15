@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Rochester);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 body {
   background-color: #f4f0e7;
   background-repeat: repeat;
@@ -26,7 +27,7 @@ li a {
   position: relative;
   text-align: center;
   padding-bottom: 4px;
-  font-family: "Rochester";
+  font-family: "Kaushan Script";
   font-size: 18px;
 }
 
@@ -62,7 +63,7 @@ hr.style {
 }
 
 h1.head {
-  font-family: "Rochester";
+  font-family: "Kaushan Script";
   padding-top: 8px;
 }
 
@@ -180,7 +181,7 @@ a.footlink:hover::before {
 }
 
 h1.loyal {
-  font-family: "Rochester";
+  font-family: "Kaushan Script";
   text-align: center;
 }
 
