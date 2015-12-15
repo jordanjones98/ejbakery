@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Rochester);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
 body {
   background-color: #f4f0e7;
   background-repeat: repeat;
+  font-family: "Raleway";
 }
 
 nav {
