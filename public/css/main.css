@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Rochester);
 body {
   background-color: #f4f0e7;
   background-repeat: repeat;
@@ -23,6 +24,8 @@ li a {
   position: relative;
   text-align: center;
   padding-bottom: 4px;
+  font-family: "Rochester";
+  font-size: 18px;
 }
 
 li a:hover {
@@ -56,6 +59,15 @@ hr.style {
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
 }
 
+h1.head {
+  font-family: "Rochester";
+  padding-top: 8px;
+}
+
+h1.deals {
+  text-align: center;
+}
+
 .rightcontain {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
@@ -82,10 +94,6 @@ hr.style {
   outline-offset: 5px;
   height: 30%;
   margin: 15px;
-}
-
-p.deals {
-  text-align: center;
 }
 
 .footer {
