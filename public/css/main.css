@@ -177,10 +177,9 @@ a.footlink:hover::before {
   outline-offset: 5px;
   height: 100%;
   margin: 15px;
-  margin-top: 5.23%;
 }
 
-h1.loyal {
+h1.title {
   font-family: "Kaushan Script";
   text-align: center;
 }
@@ -200,6 +199,15 @@ a.iconfoot:hover {
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+}
+
+.reservation {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 45%;
+  margin: 15px;
+  margin-top: 5.23%;
 }
 
 /*# sourceMappingURL=main.css.map */

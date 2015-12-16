@@ -3,6 +3,35 @@
   <link rel="stylesheet" href="public/css/skeleton.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="public/css/normalize.css" media="screen" title="no title" charset="utf-8">
   <title>EJ Bakery | Contact</title>
+  <script type="text/javascript">
+  var today = new Date();
+  var expiry = new Date(today.getTime() + 30 * 24 * 3600 * 1000); // plus 30 days
+
+  function setCookie(name, value)
+  {
+  document.cookie=name + "=" + escape(value) + "; path=/; expires=" + expiry.toGMTString();
+  }
+  function putCookie(form)
+  {
+  setCookie("userName", form[0].resname.value);
+
+  return true;
+  }
+  </script>
+  <script type="text/javascript">
+  function checkCookie() {
+  var user = getCookie("userName");
+  var res = getCookie("resdate")
+  if (user != "") {
+      alert("Welcome again " + user "your reservation is on" + res);
+  } else {
+      user = prompt("Please enter your name:", "");
+      if (user != "" && user != null) {
+          setCookie("username", user, 365);
+      }
+  }
+  }
+  </script>
 </head>
 <nav>
   <ul>
@@ -16,8 +45,23 @@
 
 <body>
   <div class="row">
+    <div class="reservation">
+      <div class="twelve columns">
+        <h1 class="center title">Want to reserve a seat?</h1>
+        <form>
+          <input type="text" placeholder="Name" id="nameBox" name='resname'>
+           <input type="button" value="Reserve!" id="submit" onclick="putCookie(document.getElementsByTagName('form'));">
+<form>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
     <div class="midcon">
-    <div class="twelve columns">Test</div>
+      <div class="twelve columns">
+        <h1 class="center title">Need to get in touch?</h1>
+      </div>
     </div>
   </div>
 </body>
