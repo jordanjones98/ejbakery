@@ -2,36 +2,9 @@
   <link rel="stylesheet" href="public/css/main.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="public/css/skeleton.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="public/css/normalize.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <title>EJ Bakery | Contact</title>
-  <script type="text/javascript">
-  var today = new Date();
-  var expiry = new Date(today.getTime() + 30 * 24 * 3600 * 1000); // plus 30 days
 
-  function setCookie(name, value)
-  {
-  document.cookie=name + "=" + escape(value) + "; path=/; expires=" + expiry.toGMTString();
-  }
-  function putCookie(form)
-  {
-  setCookie("userName", form[0].resname.value);
-
-  return true;
-  }
-  </script>
-  <script type="text/javascript">
-  function checkCookie() {
-  var user = getCookie("userName");
-  var res = getCookie("resdate")
-  if (user != "") {
-      alert("Welcome again " + user "your reservation is on" + res);
-  } else {
-      user = prompt("Please enter your name:", "");
-      if (user != "" && user != null) {
-          setCookie("username", user, 365);
-      }
-  }
-  }
-  </script>
 </head>
 <nav>
   <ul>
@@ -48,10 +21,21 @@
     <div class="reservation">
       <div class="twelve columns">
         <h1 class="center title">Want to reserve a seat?</h1>
-        <form>
-          <input type="text" placeholder="Name" id="nameBox" name='resname'>
-           <input type="button" value="Reserve!" id="submit" onclick="putCookie(document.getElementsByTagName('form'));">
-<form>
+        <form name="res">
+
+          <input type="text" name="name" placeholder="Name" class="res">
+          <input type="email" name="email" placeholder="you@awesome.com" class="res">
+          <br>
+          <input type="date" name="resdate" class="resdate">
+          <br>
+          <input type="time" name="restime" value="">
+          <br>
+          <input type="number" name="quantity" placeholder="#" min="2" max="15" class="res">
+          <br>
+          <input type="submit" name="submit" value="Reserve!" class="res">
+
+        </form>
+
 
       </div>
     </div>
@@ -61,6 +45,10 @@
     <div class="midcon">
       <div class="twelve columns">
         <h1 class="center title">Need to get in touch?</h1>
+        <p class="center">
+          <b>Elijah put something here CHANGE THIS HOVER AND COLOR JORDAN>>></b>
+          <a href="http://twitter.com" class="iconfoot" target="_blank"><i class="fa fa-envelope fa-2x iconfoot"></i></a>
+        </p>
       </div>
     </div>
   </div>
@@ -78,10 +66,19 @@
         </br><a href="about.html" class="footlink">About</a>
           </br><a href="menu.html" class="footlink">Menu</a>
             </br><a href="contact.html" class="footlink">Contact</a></font></div>
-      <div class="four columns"><font color="#ffffff"><b>CONTACT INFO</b>
-      </br>EJ Bakery LLC
-        </br>400 McCanna Prkway, 53105
-          </br>(262) 210-6064</br></font></div>
+      <div class="four columns">
+        <font color="#ffffff"><b>CONTACT INFO</b>
+          </br>EJ Bakery LLC
+            </br>400 McCanna Prkway, 53105
+              </br>(262) 210-6064</br>
+
+                <a href="http://twitter.com" class="iconfoot" target="_blank"><i class="fa fa-twitter-square fa-2x iconfoot"></i></a>
+                <a href="http://twitter.com" class="iconfoot" target="_blank"><i class="fa fa-instagram fa-2x iconfoot"></i></a>
+                <a href="http://twitter.com" class="iconfoot" target="_blank"><i class="fa fa-facebook-square fa-2x iconfoot"></i></a>
+        </font>
+
+      </div>
     </div>
   </div>
 </div>
+</body>

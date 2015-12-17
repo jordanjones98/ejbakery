@@ -21,7 +21,7 @@ li {
 }
 
 li a {
-  color: #221202;
+  color: #402203;
   text-decoration: none;
   padding: 8px;
   position: relative;
@@ -81,7 +81,7 @@ p.deals {
 
 .dealpic {
   float: right;
-  margin-right: 5%;
+  margin-right: 5px;
   display: inline-block;
   padding-top: 13px;
 }
@@ -175,7 +175,7 @@ a.footlink:hover::before {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
-  height: 100%;
+  height: 80%;
   margin: 15px;
 }
 
@@ -208,6 +208,19 @@ a.iconfoot:hover {
   height: 45%;
   margin: 15px;
   margin-top: 5.23%;
+}
+
+input.res {
+  margin: 4px;
+}
+
+input.resdate {
+  width: 188px;
+  margin: 4px;
+}
+
+form[name=res] {
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
