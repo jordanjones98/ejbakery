@@ -18,6 +18,12 @@ $kaush: "Kaushan Script"
   outline-offset: 5px
   height: $height
   margin: $margin
+=transcolor
+  -moz-osx-font-smoothing: grayscale
+  -webkit-transition-property: color
+  transition-property: color
+  -webkit-transition-duration: 0.5s
+  transition-duration: 0.5s
 
 body
   background-color: $background-color
@@ -140,18 +146,28 @@ a.iconfoot
   color: white
 a.iconfoot:hover
   color: $footer-font-color
-  -moz-osx-font-smoothing: grayscale
-  -webkit-transition-property: color
-  transition-property: color
-  -webkit-transition-duration: 0.5s
-  transition-duration: 0.5s
+  +transcolor
+a.contactmail
+  color: white
+a.contactmail:hover
+  color: $matching-color-as-logo
+  +transcolor
 .reservation
   +container(45%, 15px)
-  margin-top: 5.23%
-input.res
-  margin: 4px
+input.ressub
+  text-align: center
+  margin-left: -4px
+  margin-top: 4px
+  // width: 188px MAKES SUBMIT SAME SIZE OF OTHER INPUTS
 input.resdate
   width: 188px
   margin: 4px
 form[name=res]
   text-align: center
+.logomargin
+  margin-top: 5.23%
+p.about
+  padding: 10%
+  padding-top: 2%
+li.dealpad
+  padding-top: 10px

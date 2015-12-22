@@ -201,17 +201,31 @@ a.iconfoot:hover {
   transition-duration: 0.5s;
 }
 
+a.contactmail {
+  color: white;
+}
+
+a.contactmail:hover {
+  color: #402203;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
 .reservation {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 45%;
   margin: 15px;
-  margin-top: 5.23%;
 }
 
-input.res {
-  margin: 4px;
+input.ressub {
+  text-align: center;
+  margin-left: -4px;
+  margin-top: 4px;
 }
 
 input.resdate {
@@ -221,6 +235,19 @@ input.resdate {
 
 form[name=res] {
   text-align: center;
+}
+
+.logomargin {
+  margin-top: 5.23%;
+}
+
+p.about {
+  padding: 10%;
+  padding-top: 2%;
+}
+
+li.dealpad {
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
