@@ -250,4 +250,13 @@ li.dealpad {
   padding-top: 10px;
 }
 
+.containus {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 100%;
+  margin: 15px;
+  margin-top: 5%;
+}
+
 /*# sourceMappingURL=main.css.map */
