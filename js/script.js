@@ -1,5 +1,5 @@
 $(document).ready(function(){
     $("button").click(function(){
-      $(".foot").load("partials/_footer.html");
+      $(".foot").load("partials/footer.html");
     });
 });
