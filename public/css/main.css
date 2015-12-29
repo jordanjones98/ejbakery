@@ -263,7 +263,7 @@ li.dealpad {
   display: none;
 }
 
-.success {
+.ressuccess {
   display: none;
   height: 12%;
   background-color: green;
@@ -273,6 +273,20 @@ li.dealpad {
 }
 
 p.ressuccess {
+  font-size: 26px;
+  font-weight: lighter;
+}
+
+.reserror {
+  display: none;
+  height: 12%;
+  background-color: red;
+  color: black;
+  text-align: center;
+  margin: 10px;
+}
+
+p.reserror {
   font-size: 26px;
   font-weight: lighter;
 }
