@@ -269,6 +269,12 @@ li.dealpad {
   background-color: green;
   color: black;
   text-align: center;
+  margin: 10px;
+}
+
+p.ressuccess {
+  font-size: 26px;
+  font-weight: lighter;
 }
 
 /*# sourceMappingURL=main.css.map */
