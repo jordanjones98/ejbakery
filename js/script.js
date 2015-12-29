@@ -14,7 +14,7 @@ $(document).ready(function(){
          url = $form.attr('action');
 
      /* Send the data using post */
-     var posting = $.post("reservation/reservations.asp", {
+     var posting = $.post("reservation/reservations.txt", {
          s: term
      });
  });
