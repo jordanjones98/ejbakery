@@ -4,25 +4,25 @@ $(document).ready(function(){
   $("input[type=button]").click(function(){
     $(".ressuccess").fadeIn();
   });
-  $(function() {
-  $(window).scroll( function(){
+});
+$(function() {
+    $(window).scroll( function(){
 
 
-    $('.navscroll').each( function(i){
+        $('.navscroll').each( function(i){
 
-        var bottom_of_object = $(this).position().top + $(this).outerHeight();
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-        /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
-        bottom_of_window = bottom_of_window + 200;
+            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window + 200;
 
-        if( bottom_of_window > bottom_of_object ){
+            if( bottom_of_window > bottom_of_object ){
 
-            $(this).animate({'opacity':'1'},500);
+                $(this).animate({'opacity':'1'},500);
 
-        }
+            }
+        });
+
     });
-
-  });
-  });
 });
