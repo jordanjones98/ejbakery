@@ -4,7 +4,12 @@ $(document).ready(function(){
   $("input[type=button]").click(function(){
     $(".ressuccess").fadeIn();
   });
-});
-$(window).on('scroll', function() {
-    var header = $(".navscroll");
+  // call waypoint plugin
+  $("navscroll").waypoint(function(event, direction) {
+      // do your fade in here
+      $(this).fadeIn();
+  },
+  offset: 10
+
+  });
 });
