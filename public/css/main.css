@@ -298,6 +298,7 @@ p.reserror {
   position: sticky;
   margin-top: 0px;
   overflow: scroll;
+  opacity: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
