@@ -263,4 +263,11 @@ li.dealpad {
   display: none;
 }
 
+.success {
+  display: none;
+  height: 12%;
+  background-color: green;
+  color: black;
+}
+
 /*# sourceMappingURL=main.css.map */
