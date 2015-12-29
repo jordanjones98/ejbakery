@@ -295,8 +295,6 @@ p.reserror {
   display: none;
   background-color: #efe5c3;
   height: 12%;
-  position: sticky;
-  margin-top: 0px;
   overflow: scroll;
   opacity: 0;
 }
