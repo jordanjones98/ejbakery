@@ -9,7 +9,7 @@ body {
 
 nav {
   margin: 0 auto;
-  height: 10%;
+  height: 75px;
   display: inline;
   text-align: center;
 }
@@ -250,13 +250,17 @@ li.dealpad {
   padding-top: 10px;
 }
 
-.containus {
+.contain {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 100%;
   margin: 15px;
   margin-top: 5%;
+}
+
+.abouttxt {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
