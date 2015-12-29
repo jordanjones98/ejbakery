@@ -291,4 +291,13 @@ p.reserror {
   font-weight: lighter;
 }
 
+.navscroll {
+  display: none;
+  background-color: #efe5c3;
+  height: 12%;
+  position: sticky;
+  margin-top: 0px;
+  overflow: scroll;
+}
+
 /*# sourceMappingURL=main.css.map */
