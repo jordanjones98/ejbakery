@@ -2,8 +2,3 @@ $(document).ready(function(){
   $(".foot").load("partials/footer.html");
   $(".navpar").load("partials/nav.html");
 });
-%(document).ready(function(){
-  %("input[type=submit]").click(function(){
-    $(".success").show();
-  });
-});
