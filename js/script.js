@@ -1,5 +1,3 @@
-$(document).ready(function(){
-    $(".foot").load(function(){
+$(document).load(function(){
       $(".foot").load("partials/footer.html");
     });
-});
