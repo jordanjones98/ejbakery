@@ -4,7 +4,4 @@ $(document).ready(function(){
   $("input[type=button]").click(function(){
     $(".ressuccess").fadeIn();
   });
-  $("navpar").scroll(){(
-    $("navscroll").fadeIn("slow");
-  )};
 });
