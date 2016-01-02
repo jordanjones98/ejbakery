@@ -6,25 +6,21 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/script.js" charset="utf-8" type="text/javascript"></script>
-  <script src="js/jquerywaypoints/lib/noframework.waypoints.min.js"></script>
+
   <title>EJ Bakery | Contact</title>
 
 </head>
 <!-- Nav -->
 <div class="navpar"></div>
-<div class="navscroll"></div>
 <!-- Nav End -->
 <body>
-  <div id="basic-waypoint">
-
-  </div>
   <div class="row">
     <div class="reservation logomargin">
       <div class="twelve columns">
         <h1 class="center title">Want to reserve a seat?</h1>
         <form name="res" action="/">
 
-          <input type="text" name="name" placeholder="Name" class="resdate">
+          <input type="text" name="name" placeholder="Name" class="resdate" id="name">
           <br>
           <input type="date" name="resdate" class="resdate">
           <br>
@@ -36,10 +32,7 @@
 
         </form>
       <div class="ressuccess">
-        <p class="ressuccess">Your table has been reserved!</p>
-      </div>
-      <div class="reserror">
-        <p class="reserror">There was an error in your registration.</p>
+        <p id="ressuccess" class="ressuccess"></p>
       </div>
 
       </div>
