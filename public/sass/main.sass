@@ -1,1 +1,210 @@
-@import home
+$container-color: #efe5c3
+$footer-font-color: #efe5c3
+$outline-color: #a78d2f
+$footer-color: #221202
+$matching-color-as-logo: #402203
+$background-color: #f4f0e7
+$foot-hover: #d6d6d6
+$kaush: "Kaushan Script"
+@import url(https://fonts.googleapis.com/css?family=Rochester)
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300)
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script)
+
+// COLOR SCHEME http://colllor.com/a78d2f
+
+=container($height, $margin)
+  background-color: $container-color
+  outline: 2px solid $outline-color
+  outline-offset: 5px
+  height: $height
+  margin: $margin
+=transcolor
+  -moz-osx-font-smoothing: grayscale
+  -webkit-transition-property: color
+  transition-property: color
+  -webkit-transition-duration: 0.5s
+  transition-duration: 0.5s
+
+body
+  background-color: $background-color
+  background-repeat: repeat
+  font-family: "Raleway"
+nav
+  margin: 0 auto
+  height: 75px
+  display: inline
+  text-align: center
+li
+  margin: 8px
+  list-style: none
+  display: inline-block
+li a
+  color: $matching-color-as-logo
+  text-decoration: none
+  padding: 8px
+  position: relative
+  text-align: center
+  padding-bottom: 4px
+  font-family: $kaush
+  font-size: 18px
+li a:hover
+  color: $outline-color
+li a::before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 2px
+  bottom: 0
+  left: 0
+  background-color: $outline-color
+  visibility: hidden
+  -webkit-transform: scaleX(0)
+  transform: scaleX(0)
+  -webkit-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+li a:hover::before
+  visibility: visible
+  -webkit-transform: scaleX(1)
+  transform: scaleX(1)
+hr.style
+  border: 0
+  height: 1px
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))
+h1.head
+  font-family: $kaush
+  padding-top: 8px
+h1.deals
+  text-align: center
+li.deals
+  font-size: 16px
+p.deals
+  padding: 8px
+.dealpic
+  float: right
+  margin-right: 5px
+  display: inline-block
+  padding-top: 13px
+.rightcontain
+  +container(65%, 15px)
+  margin-left: 0px
+  margin-top: 17.2%
+.leftcontain
+  +container(65%, 15px)
+  margin-right: 0px
+  margin-top: 8%
+.mid
+  +container(30%, 15px)
+.footer
+  margin-top: 15px
+  width: 100%
+  height: 200px
+  position: relative
+  bottom: 0
+  left: 0
+  background-color: $footer-color
+  text-align: center
+.footercontain
+  padding-top: 40px
+.center
+  text-align: center
+.logo
+  width: 317px
+  height: 125px
+  padding-bottom: 5%px
+a.footlink
+  color: white
+  text-decoration: none
+  position: relative
+  padding-bottom: 3px
+a.footlink:hover
+  color: $footer-font-color
+a.footlink::before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 2px
+  bottom: 0
+  left: 0
+  background-color: $footer-font-color
+  visibility: hidden
+  -webkit-transform: scaleX(0)
+  transform: scaleX(0)
+  -webkit-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+a.footlink:hover::before
+  visibility: visible
+  -webkit-transform: scaleX(1)
+  transform: scaleX(1)
+.midcon
+  +container(80%, 15px)
+h1.title
+  font-family: $kaush
+  text-align: center
+i.iconfoot
+  padding: 3px
+a.iconfoot
+  color: white
+a.iconfoot:hover
+  color: $footer-font-color
+  +transcolor
+a.contactmail
+  color: white
+a.contactmail:hover
+  color: $matching-color-as-logo
+  +transcolor
+.reservation
+  +container(45%, 15px)
+input.ressub
+  text-align: center
+  margin-left: -4px
+  margin-top: 4px
+  // width: 188px MAKES SUBMIT SAME SIZE OF OTHER INPUTS
+input.resdate
+  width: 188px
+  margin: 4px
+form[name=res]
+  text-align: center
+.logomargin
+  margin-top: 5.23%
+p.about
+  padding: 10%
+  padding-top: 2%
+li.dealpad
+  padding-top: 10px
+.contain
+  +container(100%, 15px)
+  margin-top: 5%
+.abouttxt
+  display: none
+.ressuccess
+  display: none
+  height: 12%
+  background-color: rgba(59, 32, 2, 0.65)
+  text-align: center
+p.ressuccess
+  font-size: 26px
+  font-weight: lighter
+  font-family: $kaush
+  color: black
+p.reserror
+  font-size: 26px
+  font-weight: lighter
+.navscroll
+  display: none
+  background-color: $container-color
+  height: 12%
+  position: sticky
+  margin: 0px
+@media (max-width: 550px)
+  .leftcontain
+    margin-right: 15px
+  .rightcontain
+    margin-left: 15px
+    margin-top: 15px
+    height: 70%
+  .mid
+    height: 320px
+  p.deals
+    padding-left: 10px
+  .section3
+    padding: 3px

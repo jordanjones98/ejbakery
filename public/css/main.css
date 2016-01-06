@@ -277,15 +277,6 @@ p.ressuccess {
   color: black;
 }
 
-.reserror {
-  display: none;
-  height: 12%;
-  background-color: red;
-  color: black;
-  text-align: center;
-  margin: 10px;
-}
-
 p.reserror {
   font-size: 26px;
   font-weight: lighter;
@@ -297,6 +288,30 @@ p.reserror {
   height: 12%;
   position: sticky;
   margin: 0px;
+}
+
+@media (max-width: 550px) {
+  .leftcontain {
+    margin-right: 15px;
+  }
+
+  .rightcontain {
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 70%;
+  }
+
+  .mid {
+    height: 320px;
+  }
+
+  p.deals {
+    padding-left: 10px;
+  }
+
+  .section3 {
+    padding: 3px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
