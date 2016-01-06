@@ -136,7 +136,7 @@ p.deals {
 .logo {
   width: 317px;
   height: 125px;
-  padding-bottom: 5% px;
+  padding-bottom: 5%;
 }
 
 a.footlink {
@@ -311,6 +311,14 @@ p.reserror {
 
   .section3 {
     padding: 3px;
+  }
+
+  .footer {
+    height: 400px;
+  }
+
+  .logo {
+    padding-top: 15px;
   }
 }
 
