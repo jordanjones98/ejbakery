@@ -265,16 +265,16 @@ li.dealpad {
 
 .ressuccess {
   display: none;
-  height: 12%;
+  height: 40px;
   background-color: rgba(59, 32, 2, 0.65);
   text-align: center;
 }
 
 p.ressuccess {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: lighter;
   font-family: "Kaushan Script";
-  color: black;
+  color: white;
 }
 
 p.reserror {
@@ -288,6 +288,14 @@ p.reserror {
   height: 12%;
   position: sticky;
   margin: 0px;
+}
+
+nav.deskmenu {
+  display: block;
+}
+
+.hammenu {
+  display: none;
 }
 
 @media (max-width: 550px) {
@@ -319,6 +327,18 @@ p.reserror {
 
   .logo {
     padding-top: 15px;
+  }
+
+  .reservation {
+    height: 350px;
+  }
+
+  .hammenu {
+    display: block;
+  }
+
+  .nav.deskmenu {
+    display: none;
   }
 }
 
