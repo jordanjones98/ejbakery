@@ -290,6 +290,12 @@ p.reserror {
   margin: 0px;
 }
 
+.navmobile {
+  height: 50px;
+  background-color: #402203;
+  display: none;
+}
+
 @media (max-width: 550px) {
   .leftcontain {
     margin-right: 15px;
@@ -317,12 +323,16 @@ p.reserror {
     height: 450px;
   }
 
-  .logo {
-    padding-top: 15px;
-  }
-
   .reservation {
     height: 350px;
+  }
+
+  .navmobile {
+    display: block;
+  }
+
+  .navpar {
+    display: none;
   }
 }
 
