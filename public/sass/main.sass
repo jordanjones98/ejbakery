@@ -6,6 +6,7 @@ $matching-color-as-logo: #402203
 $background-color: #f4f0e7
 $foot-hover: #d6d6d6
 $kaush: "Kaushan Script"
+$roch: "Rochester"
 @import url(https://fonts.googleapis.com/css?family=Rochester)
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300)
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script)
@@ -26,7 +27,7 @@ $kaush: "Kaushan Script"
   transition-duration: 0.5s
 
 body
-  background-color: $background-color
+  background-image: "http://brownscourt.com/wp-content/themes/skeleton_wp-standalone/skeleton/images/texture-new.png"
   background-repeat: repeat
   font-family: "Raleway"
 nav
@@ -75,10 +76,15 @@ h1.head
   padding-top: 8px
 h1.deals
   text-align: center
+  color: #ffffff
+h1.email
+  text-align: center
+  font-family: $kaush
+  font-size: 60px
 li.deals
   font-size: 16px
 p.deals
-  padding: 8px
+  padding: 0px
 .dealpic
   float: right
   margin-right: 5px
@@ -86,14 +92,28 @@ p.deals
   padding-top: 13px
 .rightcontain
   +container(65%, 15px)
+  margin-left: 3%
+  margin-top: 17.2%
+.dealsmenu
+  +container(7%, 15px)
   margin-left: 0px
   margin-top: 17.2%
+  background-image: url("http://i.imgur.com/7JlWTjS.jpg")
+.dealsmenu-muffins
+  +container(7%, 15px)
+  margin-left: 0px
+  margin-top: 1%
+  background-image: url("http://i.imgur.com/7JlWTjS.jpg")
 .leftcontain
   +container(65%, 15px)
-  margin-right: 0px
+  margin-right: 3%
   margin-top: 8%
+  background-color: $background-color
+  background-image: url("http://i.imgur.com/7JlWTjS.jpg")
 .mid
-  +container(30%, 15px)
+  +container(35%, 15px)
+  background-image: url("http://i.imgur.com/muK5UdH.jpg")
+  background-position: center
 .footer
   margin-top: 15px
   width: 100%
@@ -243,12 +263,19 @@ figure:nth-child(6)
 @media (max-width: 550px)
   .leftcontain
     margin-right: 15px
+@media (max-width: 550px)
+  .leftcontain
+    margin-right: 15px
+    overflow: auto
   .rightcontain
     margin-left: 15px
     margin-top: 15px
     height: 70%
   .mid
     height: 320px
+    overflow: auto
+  .mid
+    height: 30px
   p.deals
     padding-left: 10px
   .section3

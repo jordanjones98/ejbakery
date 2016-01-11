@@ -249,7 +249,10 @@ samp {
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
 
-button,
+button {
+  margin-right: 15px;
+  margin-left: 15px;
+}
 input,
 optgroup,
 select,
