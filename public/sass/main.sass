@@ -199,27 +199,18 @@ p.reserror
   height: 50px
   background-color: $matching-color-as-logo
   display: none
-@media (max-width: 550px)
-  .leftcontain
-    margin-right: 15px
-  .rightcontain
-    margin-left: 15px
-    margin-top: 15px
-    height: 70%
-  .mid
-    height: 320px
-  p.deals
-    padding-left: 10px
-  .section3
-    padding: 3px
-  .footer
-    height: 450px
-  .reservation
-    height: 350px
-  .navmobile
-    display: block
-  .navpar
-    display: none
+.topmenu
+  +container(300px, 15px)
+.contactcontain
+  +container(400px, 0px)
+  margin-top: 15px
+.aboutcol
+  +container(400px, 0px)
+  margin-top: 35px
+.aboutcolbottom
+  margin-bottom: 35px
+
+// Slider
 .css-slideshow
   position: relative
   max-width: 100%
@@ -247,6 +238,29 @@ figure:nth-child(5)
   animation: xfade 36s 6s infinite
 figure:nth-child(6)
   animation: xfade 36s 0s infinite
+
+// MOBILE VERSION
+@media (max-width: 550px)
+  .leftcontain
+    margin-right: 15px
+  .rightcontain
+    margin-left: 15px
+    margin-top: 15px
+    height: 70%
+  .mid
+    height: 320px
+  p.deals
+    padding-left: 10px
+  .section3
+    padding: 3px
+  .footer
+    height: 450px
+  .reservation
+    height: 350px
+  .navmobile
+    display: block
+  .navpar
+    display: none
 @keyframes xfade
   0%
     opacity: 1

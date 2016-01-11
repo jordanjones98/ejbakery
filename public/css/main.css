@@ -296,45 +296,36 @@ p.reserror {
   display: none;
 }
 
-@media (max-width: 550px) {
-  .leftcontain {
-    margin-right: 15px;
-  }
-
-  .rightcontain {
-    margin-left: 15px;
-    margin-top: 15px;
-    height: 70%;
-  }
-
-  .mid {
-    height: 320px;
-  }
-
-  p.deals {
-    padding-left: 10px;
-  }
-
-  .section3 {
-    padding: 3px;
-  }
-
-  .footer {
-    height: 450px;
-  }
-
-  .reservation {
-    height: 350px;
-  }
-
-  .navmobile {
-    display: block;
-  }
-
-  .navpar {
-    display: none;
-  }
+.topmenu {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 300px;
+  margin: 15px;
 }
+
+.contactcontain {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 400px;
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.aboutcol {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 400px;
+  margin: 0px;
+  margin-top: 35px;
+}
+
+.aboutcolbottom {
+  margin-bottom: 35px;
+}
+
 .css-slideshow {
   position: relative;
   max-width: 100%;
@@ -382,6 +373,45 @@ figure:nth-child(6) {
   animation: xfade 36s 0s infinite;
 }
 
+@media (max-width: 550px) {
+  .leftcontain {
+    margin-right: 15px;
+  }
+
+  .rightcontain {
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 70%;
+  }
+
+  .mid {
+    height: 320px;
+  }
+
+  p.deals {
+    padding-left: 10px;
+  }
+
+  .section3 {
+    padding: 3px;
+  }
+
+  .footer {
+    height: 450px;
+  }
+
+  .reservation {
+    height: 350px;
+  }
+
+  .navmobile {
+    display: block;
+  }
+
+  .navpar {
+    display: none;
+  }
+}
 @keyframes xfade {
   0% {
     opacity: 1;
