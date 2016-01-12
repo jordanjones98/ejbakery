@@ -149,6 +149,19 @@ p.deals {
   background-size: cover;
 }
 
+.cta {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 20%;
+  margin: 15px;
+  background-image: url("http://i.imgur.com/7JlWTjS.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
 .testimonial {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
@@ -246,7 +259,7 @@ p.deals {
   outline-offset: 5px;
   height: 35%;
   margin: 15px;
-  background-image: url("http://i.imgur.com/muK5UdH.jpg");
+  background-image: url("http://i.imgur.com/uPvQ7D7.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -459,6 +472,7 @@ p.reserror {
   background-position: center;
   background-size: cover;
   margin-top: 2%;
+  outline-color: #221202;
 }
 
 .contactcontain2 {
@@ -471,6 +485,7 @@ p.reserror {
   background-image: url("http://i.imgur.com/mj1j8CK.jpg");
   background-position: center;
   background-size: cover;
+  outline-color: #221202;
 }
 
 .jordan {
