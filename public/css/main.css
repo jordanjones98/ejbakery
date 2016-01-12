@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 body {
-  background-image: "http://brownscourt.com/wp-content/themes/skeleton_wp-standalone/skeleton/images/texture-new.png";
+  background-color: #f4f0e7;
   background-repeat: repeat;
   font-family: "Raleway";
 }
@@ -112,6 +112,107 @@ p.deals {
   margin-left: 0px;
   margin-top: 17.2%;
   background-image: url("http://i.imgur.com/7JlWTjS.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.conhead {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 40%;
+  margin: 15px;
+  background-image: url("http://i.imgur.com/WrjpnRK.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.menuhead {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 40%;
+  margin: 15px;
+  background-image: url("http://i.imgur.com/PQLMFWP.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.abouthead {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 40%;
+  margin: 15px;
+  background-image: url("http://i.imgur.com/sBCizve.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.testimonial {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 10%;
+  margin: 15px;
+  background-image: url("http://i.imgur.com/7JlWTjS.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.testimoniallight {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 10%;
+  margin: 15px;
+  background-image: url("http://i.imgur.com/dEHQBj0.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.offer1 {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 60%;
+  margin: 15px;
+  background-image: url("http://i.imgur.com/m1uT0fT.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.offer2 {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 60%;
+  margin: 15px;
+  background-image: url("http://i.imgur.com/2wkOQyK.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.offer3 {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 60%;
+  margin: 15px;
+  background-image: url("http://i.imgur.com/mj1j8CK.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.offer4 {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 60%;
+  margin: 15px;
+  background-image: url("http://i.imgur.com/dEHQBj0.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .dealsmenu-muffins {
@@ -123,6 +224,8 @@ p.deals {
   margin-left: 0px;
   margin-top: 1%;
   background-image: url("http://i.imgur.com/7JlWTjS.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .leftcontain {
@@ -145,6 +248,7 @@ p.deals {
   margin: 15px;
   background-image: url("http://i.imgur.com/muK5UdH.jpg");
   background-position: center;
+  background-size: cover;
 }
 
 .footer {
@@ -225,8 +329,16 @@ a.iconfoot {
   color: white;
 }
 
+a.iconcon {
+  color: #222;
+}
+
+a.iconcon:hover {
+  color: #fff;
+}
+
 a.iconfoot:hover {
-  color: #efe5c3;
+  color: #221202;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-property: color;
   transition-property: color;
@@ -337,73 +449,50 @@ p.reserror {
   margin: 15px;
 }
 
-.contactcontain {
+.contactcontain1 {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
-  height: 400px;
+  height: 50%;
   margin: 0px;
-  margin-top: 15px;
+  background-image: url("http://i.imgur.com/2wkOQyK.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 2%;
 }
 
-.aboutcol {
+.contactcontain2 {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
-  height: 400px;
+  height: 50%;
   margin: 0px;
-  margin-top: 35px;
+  margin-top: 2%;
+  background-image: url("http://i.imgur.com/mj1j8CK.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-.aboutcolbottom {
-  margin-bottom: 35px;
+.jordan {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 76%;
+  margin: 0px;
+  background-color: #f4f0e7;
+  outline-color: #f4f0e7;
+  margin-top: 2%;
 }
 
-.css-slideshow {
-  position: relative;
-  max-width: 100%;
-  height: 100%;
-  margin: 5em auto 0.5em auto;
-}
-
-.css-slideshow figure {
-  margin: 0;
-  max-width: 100%;
-  height: 100%;
-  background: #000;
-  position: absolute;
-}
-
-.css-slideshow img {
-  box-shadow: 0 0 2px #666;
-}
-
-.css-slideshow figure {
-  opacity: 0;
-}
-
-figure:nth-child(1) {
-  animation: xfade 36s 30s infinite;
-}
-
-figure:nth-child(2) {
-  animation: xfade 36s 24s infinite;
-}
-
-figure:nth-child(3) {
-  animation: xfade 36s 18s infinite;
-}
-
-figure:nth-child(4) {
-  animation: xfade 36s 12s infinite;
-}
-
-figure:nth-child(5) {
-  animation: xfade 36s 6s infinite;
-}
-
-figure:nth-child(6) {
-  animation: xfade 36s 0s infinite;
+.elijah {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 76%;
+  margin: 0px;
+  background-color: #f4f0e7;
+  outline-color: #f4f0e7;
+  margin-top: 2%;
 }
 
 @media (max-width: 550px) {

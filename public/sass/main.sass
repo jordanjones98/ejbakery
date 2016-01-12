@@ -27,7 +27,7 @@ $roch: "Rochester"
   transition-duration: 0.5s
 
 body
-  background-image: "http://brownscourt.com/wp-content/themes/skeleton_wp-standalone/skeleton/images/texture-new.png"
+  background-color: $background-color
   background-repeat: repeat
   font-family: "Raleway"
 nav
@@ -99,11 +99,60 @@ p.deals
   margin-left: 0px
   margin-top: 17.2%
   background-image: url("http://i.imgur.com/7JlWTjS.jpg")
+  background-position: center
+  background-size: cover
+.conhead
+  +container(40%, 15px)
+  background-image: url("http://i.imgur.com/WrjpnRK.jpg")
+  background-position: center
+  background-size: cover
+.menuhead
+  +container(40%, 15px)
+  background-image: url("http://i.imgur.com/PQLMFWP.jpg")
+  background-position: center
+  background-size: cover
+.abouthead
+  +container(40%, 15px)
+  background-image: url("http://i.imgur.com/sBCizve.jpg")
+  background-position: center
+  background-size: cover
+.testimonial
+  +container(10%, 15px)
+  background-image: url("http://i.imgur.com/7JlWTjS.jpg")
+  background-position: center
+  background-size: cover
+.testimoniallight
+  +container(10%, 15px)
+  background-image: url("http://i.imgur.com/dEHQBj0.jpg")
+  background-position: center
+  background-size: cover
+.offer1
+  +container(60%, 15px)
+  background-image: url("http://i.imgur.com/m1uT0fT.jpg")
+  background-position: center
+  background-size: cover
+.offer2
+  +container(60%, 15px)
+  background-image: url("http://i.imgur.com/2wkOQyK.jpg")
+  background-position: center
+  background-size: cover
+.offer3
+  +container(60%, 15px)
+  background-image: url("http://i.imgur.com/mj1j8CK.jpg")
+  background-position: center
+  background-size: cover
+.offer4
+  +container(60%, 15px)
+  background-image: url("http://i.imgur.com/dEHQBj0.jpg")
+  background-position: center
+  background-size: cover
 .dealsmenu-muffins
   +container(7%, 15px)
   margin-left: 0px
   margin-top: 1%
   background-image: url("http://i.imgur.com/7JlWTjS.jpg")
+  background-position: center
+  background-size: cover
 .leftcontain
   +container(65%, 15px)
   margin-right: 3%
@@ -114,6 +163,7 @@ p.deals
   +container(35%, 15px)
   background-image: url("http://i.imgur.com/muK5UdH.jpg")
   background-position: center
+  background-size: cover
 .footer
   margin-top: 15px
   width: 100%
@@ -164,8 +214,12 @@ i.iconfoot
   padding: 3px
 a.iconfoot
   color: white
+a.iconcon
+  color: #222
+a.iconcon:hover
+  color: #fff
 a.iconfoot:hover
-  color: $footer-font-color
+  color: $footer-color
   +transcolor
 a.contactmail
   color: white
@@ -221,44 +275,28 @@ p.reserror
   display: none
 .topmenu
   +container(300px, 15px)
-.contactcontain
-  +container(400px, 0px)
-  margin-top: 15px
-.aboutcol
-  +container(400px, 0px)
-  margin-top: 35px
-.aboutcolbottom
-  margin-bottom: 35px
-
-// Slider
-.css-slideshow
-  position: relative
-  max-width: 100%
-  height: 100%
-  margin: 5em auto .5em auto
-.css-slideshow figure
-  margin: 0
-  max-width: 100%
-  height: 100%
-  background: #000
-  position: absolute
-.css-slideshow img
-  box-shadow: 0 0 2px #666
-.css-slideshow figure
-  opacity: 0
-figure:nth-child(1)
-  animation: xfade 36s 30s infinite
-figure:nth-child(2)
-  animation: xfade 36s 24s infinite
-figure:nth-child(3)
-  animation: xfade 36s 18s infinite
-figure:nth-child(4)
-  animation: xfade 36s 12s infinite
-figure:nth-child(5)
-  animation: xfade 36s 6s infinite
-figure:nth-child(6)
-  animation: xfade 36s 0s infinite
-
+.contactcontain1
+  +container(50%, 0px)
+  background-image: url("http://i.imgur.com/2wkOQyK.jpg")
+  background-position: center
+  background-size: cover
+  margin-top: 2%
+.contactcontain2
+  +container(50%, 0px)
+  margin-top: 2%
+  background-image: url("http://i.imgur.com/mj1j8CK.jpg")
+  background-position: center
+  background-size: cover
+.jordan
+  +container(76%, 0px)
+  background-color: $background-color
+  outline-color: $background-color
+  margin-top: 2%
+.elijah
+  +container(76%, 0px)
+  background-color: $background-color
+  outline-color: $background-color
+  margin-top: 2%
 // MOBILE VERSION
 @media (max-width: 550px)
   .leftcontain
