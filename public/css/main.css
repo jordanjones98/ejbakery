@@ -598,6 +598,10 @@ p.dealstxt {
     margin-right: 15px;
     margin-left: 15px;
   }
+
+  .menuhead {
+    height: 700px;
+  }
 }
 @keyframes xfade {
   0% {

@@ -6,8 +6,8 @@ $(document).ready(function(){
   $(".navmobile").load("partials/mobilenav.html");
   $("input[type=button]").click(function(){
     $(".ressuccess").fadeIn();
-  $('.navmobile').toggle(function(){
-    $('hammenu').fadeIn();
+  $(".navmobile").toggle(function(){
+    $("hammenu").fadeIn();
   });
 
   });
