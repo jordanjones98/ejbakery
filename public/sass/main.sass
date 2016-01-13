@@ -112,7 +112,7 @@ p.deals
   background-position: center
   background-size: cover
 .abouthead
-  +container(40%, 15px)
+  +container(40%, 0px)
   background-image: url("http://i.imgur.com/sBCizve.jpg")
   background-position: center
   background-size: cover
@@ -153,15 +153,8 @@ p.deals
   background-image: url("http://i.imgur.com/dEHQBj0.jpg")
   background-position: center
   background-size: cover
-.dealsmenu-muffins
-  +container(7%, 15px)
-  margin-left: 0px
-  margin-top: 1%
-  background-image: url("http://i.imgur.com/7JlWTjS.jpg")
-  background-position: center
-  background-size: cover
 .leftcontain
-  +container(65%, 15px)
+  +container(75%, 15px)
   margin-right: 3%
   margin-top: 8%
   background-color: $background-color
@@ -306,6 +299,13 @@ p.reserror
   background-color: $background-color
   outline-color: $background-color
   margin-top: 2%
+p.dealstxt
+  text-align: center
+.hammenu
+  display: none
+  height: 100%
+  background-color: $matching-color-as-logo
+
 // MOBILE VERSION
 @media (max-width: 550px)
   .leftcontain
@@ -335,6 +335,32 @@ p.reserror
     display: block
   .navpar
     display: none
+  .mainpic
+    height: 830px
+  .mid
+    height: 500px
+  .dealsmenu
+    margin-top: 20px
+    margin-left: 15px
+    height: 100px
+  p.dealstxt
+    margin: 15px
+  .testimonial
+    margin: 15px
+    height: 130px
+  .testimoniallight
+    height: 130px
+    margin: 15px
+  .cta
+    height: 220px
+    margin-bottom: 15px
+  .abouthead
+    margin-right: 15px
+  .aboutbottom
+    margin-right: 15px
+    margin-left: 15px
+  .hammenu
+    display: block
 @keyframes xfade
   0%
     opacity: 1
