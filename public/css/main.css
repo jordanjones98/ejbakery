@@ -551,6 +551,8 @@ p.dealstxt {
 
   .navmobile {
     display: block;
+    height: 20px;
+    background-color: #402203;
   }
 
   .navpar {
@@ -597,10 +599,6 @@ p.dealstxt {
   .aboutbottom {
     margin-right: 15px;
     margin-left: 15px;
-  }
-
-  .hammenu {
-    display: block;
   }
 }
 @keyframes xfade {
