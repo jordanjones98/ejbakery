@@ -7,7 +7,7 @@ $(document).ready(function(){
   $("input[type=button]").click(function(){
     $(".ressuccess").fadeIn();
   $('.navmobile').toggle(function(){
-    $('hammenu').fadeIn
+    $('hammenu').fadeIn();
   });
 
   });
