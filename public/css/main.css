@@ -143,7 +143,7 @@ p.deals {
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 40%;
-  margin: 0px;
+  margin: 15px;
   background-image: url("http://i.imgur.com/sBCizve.jpg");
   background-position: center;
   background-size: cover;
@@ -228,11 +228,24 @@ p.deals {
   background-size: cover;
 }
 
+.dealsmenu-muffins {
+  background-color: #efe5c3;
+  outline: 2px solid #a78d2f;
+  outline-offset: 5px;
+  height: 7%;
+  margin: 15px;
+  margin-left: 0px;
+  margin-top: 1%;
+  background-image: url("http://i.imgur.com/7JlWTjS.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 .leftcontain {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
-  height: 75%;
+  height: 65%;
   margin: 15px;
   margin-right: 3%;
   margin-top: 8%;
@@ -479,7 +492,7 @@ p.reserror {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
-  height: 68%;
+  height: 76%;
   margin: 0px;
   background-color: #f4f0e7;
   outline-color: #f4f0e7;
@@ -490,36 +503,11 @@ p.reserror {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
-  height: 68%;
+  height: 76%;
   margin: 0px;
   background-color: #f4f0e7;
   outline-color: #f4f0e7;
   margin-top: 2%;
-}
-
-p.dealstxt {
-  text-align: center;
-}
-
-.hammenu {
-  display: none;
-  height: 100%;
-  background-color: #402203;
-}
-
-.toggle-nav {
-  display: none;
-}
-
-.nav {
-  display: none;
-  background-color: #402203;
-  height: 15px;
-}
-
-.hamicon {
-  color: white;
-  margin-top: 10px;
 }
 
 @media (max-width: 550px) {
@@ -570,56 +558,6 @@ p.dealstxt {
 
   .navpar {
     display: none;
-  }
-
-  .mainpic {
-    height: 830px;
-  }
-
-  .mid {
-    height: 500px;
-  }
-
-  .dealsmenu {
-    margin-top: 20px;
-    margin-left: 15px;
-    height: 100px;
-  }
-
-  p.dealstxt {
-    margin: 15px;
-  }
-
-  .testimonial {
-    margin: 15px;
-    height: 130px;
-  }
-
-  .testimoniallight {
-    height: 130px;
-    margin: 15px;
-  }
-
-  .cta {
-    height: 220px;
-    margin-bottom: 15px;
-  }
-
-  .abouthead {
-    margin-right: 15px;
-  }
-
-  .aboutbottom {
-    margin-right: 15px;
-    margin-left: 15px;
-  }
-
-  .menuhead {
-    height: 400px;
-  }
-
-  .nav {
-    display: inline;
   }
 }
 @keyframes xfade {
