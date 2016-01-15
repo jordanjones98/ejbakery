@@ -507,6 +507,21 @@ p.dealstxt {
   background-color: #402203;
 }
 
+.toggle-nav {
+  display: none;
+}
+
+.nav {
+  display: none;
+  background-color: #402203;
+  height: 15px;
+}
+
+.hamicon {
+  color: white;
+  margin-top: 10px;
+}
+
 @media (max-width: 550px) {
   .leftcontain {
     margin-right: 15px;
@@ -601,6 +616,10 @@ p.dealstxt {
 
   .menuhead {
     height: 400px;
+  }
+
+  .nav {
+    display: inline;
   }
 }
 @keyframes xfade {
