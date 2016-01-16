@@ -7,6 +7,7 @@ $(document).ready(function(){
     $(".ressuccess").fadeIn();
   });
   $(".hamicon").click(function(){
+    $(".hamfade").stop()
     $(".hamfade").fadeToggle();
     $(".hamicon").toggleClass('fa-bars');
     $(".hamicon").toggleClass('fa-times');
