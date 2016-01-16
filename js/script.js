@@ -7,16 +7,10 @@ $(document).ready(function(){
     $(".ressuccess").fadeIn();
   });
   $(".hamicon").click(function(){
-    $(".hamfade").fadeIn();
+    $(".hamfade").fadeToggle();
+    $(".hamicon").toggleClass('fa-bars');
+    $(".hamicon").toggleClass('fa-times');
     $("body").css("overflow", "hidden");
-    $(".hamicon").css("display", "none");
-    $("hamexit").fadeIn();
-  });
-  $(".hamexit").click(function(){
-    $(".hamfade").fadeOut();
-    $("body").css("overflow", "visible");
-    $(".hamexit").fadeOut();
-    $(".hamicon").css("display", "block");
   });
 });
 
