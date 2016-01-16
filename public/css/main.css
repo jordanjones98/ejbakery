@@ -228,19 +228,6 @@ p.deals {
   background-size: cover;
 }
 
-.dealsmenu-muffins {
-  background-color: #efe5c3;
-  outline: 2px solid #a78d2f;
-  outline-offset: 5px;
-  height: 7%;
-  margin: 15px;
-  margin-left: 0px;
-  margin-top: 1%;
-  background-image: url("http://i.imgur.com/7JlWTjS.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
 .leftcontain {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
@@ -530,16 +517,14 @@ p.reserror {
 .hamexit {
   color: #f4f0e7;
   display: none;
+  padding-top: 18px;
+  padding-left: 10px;
 }
 
 @media (max-width: 550px) {
   .leftcontain {
     margin-right: 15px;
-  }
-}
-@media (max-width: 550px) {
-  .leftcontain {
-    margin-right: 15px;
+    height: 600px;
   }
 
   .rightcontain {
@@ -563,6 +548,7 @@ p.reserror {
 
   .section3 {
     padding: 3px;
+    height: 400px;
   }
 
   .footer {
@@ -583,6 +569,14 @@ p.reserror {
 
   .hammenu {
     display: block;
+  }
+
+  .dealsmenu {
+    margin-left: 15px;
+  }
+
+  .dealstxt {
+    padding: 15px;
   }
 }
 @keyframes xfade {

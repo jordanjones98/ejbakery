@@ -153,13 +153,6 @@ p.deals
   background-image: url("http://i.imgur.com/dEHQBj0.jpg")
   background-position: center
   background-size: cover
-.dealsmenu-muffins
-  +container(7%, 15px)
-  margin-left: 0px
-  margin-top: 1%
-  background-image: url("http://i.imgur.com/7JlWTjS.jpg")
-  background-position: center
-  background-size: cover
 .leftcontain
   +container(65%, 15px)
   margin-right: 3%
@@ -320,14 +313,14 @@ p.reserror
 .hamexit
   color: $background-color
   display: none
+  padding-top: 18px
+  padding-left: 10px
 
 // MOBILE VERSION
 @media (max-width: 550px)
   .leftcontain
     margin-right: 15px
-@media (max-width: 550px)
-  .leftcontain
-    margin-right: 15px
+    height: 600px
   .rightcontain
     margin-left: 15px
     margin-top: 15px
@@ -341,6 +334,7 @@ p.reserror
     padding-left: 10px
   .section3
     padding: 3px
+    height: 400px
   .footer
     height: 450px
   .reservation
@@ -351,6 +345,10 @@ p.reserror
     display: none
   .hammenu
     display: block
+  .dealsmenu
+    margin-left: 15px
+  .dealstxt
+    padding: 15px
 @keyframes xfade
   0%
     opacity: 1
