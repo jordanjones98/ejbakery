@@ -510,6 +510,28 @@ p.reserror {
   margin-top: 2%;
 }
 
+.hammenu {
+  height: 60px;
+  background-color: #402203;
+}
+
+.hamicon {
+  color: #f4f0e7;
+  padding-top: 18px;
+  padding-left: 10px;
+}
+
+.hamfade {
+  background-color: #402203;
+  height: 100%;
+  display: none;
+}
+
+.hamexit {
+  color: #f4f0e7;
+  display: none;
+}
+
 @media (max-width: 550px) {
   .leftcontain {
     margin-right: 15px;
@@ -518,7 +540,6 @@ p.reserror {
 @media (max-width: 550px) {
   .leftcontain {
     margin-right: 15px;
-    overflow: auto;
   }
 
   .rightcontain {
@@ -558,6 +579,10 @@ p.reserror {
 
   .navpar {
     display: none;
+  }
+
+  .hammenu {
+    display: block;
   }
 }
 @keyframes xfade {

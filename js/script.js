@@ -6,6 +6,18 @@ $(document).ready(function(){
   $("input[type=button]").click(function(){
     $(".ressuccess").fadeIn();
   });
+  $(".hamicon").click(function(){
+    $(".hamfade").fadeIn();
+    $("body").css("overflow", "hidden");
+    $(".hamicon").css("display", "none");
+    $("hamexit").fadeIn();
+  });
+  $(".hamexit").click(function(){
+    $(".hamfade").fadeOut();
+    $("body").css("overflow", "visible");
+    $(".hamexit").fadeOut();
+    $(".hamicon").css("display", "block");
+  });
 });
 
 

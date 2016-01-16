@@ -306,6 +306,21 @@ p.reserror
   background-color: $background-color
   outline-color: $background-color
   margin-top: 2%
+.hammenu
+  height: 60px
+  background-color: $matching-color-as-logo
+.hamicon
+  color: $background-color
+  padding-top: 18px
+  padding-left: 10px
+.hamfade
+  background-color: $matching-color-as-logo
+  height: 100%
+  display: none
+.hamexit
+  color: $background-color
+  display: none
+
 // MOBILE VERSION
 @media (max-width: 550px)
   .leftcontain
@@ -313,7 +328,6 @@ p.reserror
 @media (max-width: 550px)
   .leftcontain
     margin-right: 15px
-    overflow: auto
   .rightcontain
     margin-left: 15px
     margin-top: 15px
@@ -335,6 +349,8 @@ p.reserror
     display: block
   .navpar
     display: none
+  .hammenu
+    display: block
 @keyframes xfade
   0%
     opacity: 1
