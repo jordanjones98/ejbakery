@@ -121,7 +121,7 @@ p.deals {
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 40%;
-  margin: 15px;
+  margin: 0px;
   background-image: url("http://i.imgur.com/WrjpnRK.jpg");
   background-position: center;
   background-size: cover;
@@ -132,7 +132,7 @@ p.deals {
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 40%;
-  margin: 15px;
+  margin: 0px;
   background-image: url("http://i.imgur.com/PQLMFWP.jpg");
   background-position: center;
   background-size: cover;
@@ -143,7 +143,7 @@ p.deals {
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 40%;
-  margin: 15px;
+  margin: 0px;
   background-image: url("http://i.imgur.com/sBCizve.jpg");
   background-position: center;
   background-size: cover;
@@ -154,7 +154,7 @@ p.deals {
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 20%;
-  margin: 15px;
+  margin: 0px;
   background-image: url("http://i.imgur.com/7JlWTjS.jpg");
   background-position: center;
   background-size: cover;
@@ -166,22 +166,24 @@ p.deals {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
-  height: 10%;
-  margin: 15px;
+  height: 12%;
+  margin: 0px;
   background-image: url("http://i.imgur.com/7JlWTjS.jpg");
   background-position: center;
   background-size: cover;
+  margin-top: 30px;
 }
 
 .testimoniallight {
   background-color: #efe5c3;
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
-  height: 10%;
-  margin: 15px;
+  height: 12%;
+  margin: 0px;
   background-image: url("http://i.imgur.com/dEHQBj0.jpg");
   background-position: center;
   background-size: cover;
+  margin-top: 30px;
 }
 
 .offer1 {
@@ -189,10 +191,11 @@ p.deals {
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 60%;
-  margin: 15px;
+  margin: 0px;
   background-image: url("http://i.imgur.com/m1uT0fT.jpg");
   background-position: center;
   background-size: cover;
+  margin-top: 30px;
 }
 
 .offer2 {
@@ -200,10 +203,11 @@ p.deals {
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 60%;
-  margin: 15px;
+  margin: 0px;
   background-image: url("http://i.imgur.com/2wkOQyK.jpg");
   background-position: center;
   background-size: cover;
+  margin-top: 30px;
 }
 
 .offer3 {
@@ -211,10 +215,11 @@ p.deals {
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 60%;
-  margin: 15px;
+  margin: 0px;
   background-image: url("http://i.imgur.com/mj1j8CK.jpg");
   background-position: center;
   background-size: cover;
+  margin-top: 30px;
 }
 
 .offer4 {
@@ -222,10 +227,12 @@ p.deals {
   outline: 2px solid #a78d2f;
   outline-offset: 5px;
   height: 60%;
-  margin: 15px;
+  margin: 0px;
   background-image: url("http://i.imgur.com/dEHQBj0.jpg");
   background-position: center;
   background-size: cover;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .leftcontain {
@@ -458,7 +465,7 @@ p.reserror {
   background-image: url("http://i.imgur.com/2wkOQyK.jpg");
   background-position: center;
   background-size: cover;
-  margin-top: 2%;
+  margin-top: 4%;
   outline-color: #221202;
 }
 
@@ -468,7 +475,7 @@ p.reserror {
   outline-offset: 5px;
   height: 50%;
   margin: 0px;
-  margin-top: 2%;
+  margin-top: 4%;
   background-image: url("http://i.imgur.com/mj1j8CK.jpg");
   background-position: center;
   background-size: cover;
@@ -500,12 +507,14 @@ p.reserror {
 .hammenu {
   height: 60px;
   background-color: #402203;
+  display: none;
 }
 
 .hamicon {
   color: #f4f0e7;
   padding-top: 18px;
   padding-left: 10px;
+  display: none;
 }
 
 .hamfade {
@@ -519,6 +528,18 @@ p.reserror {
   display: none;
   padding-top: 18px;
   padding-left: 10px;
+}
+
+.menuopen {
+  overflow: hidden;
+}
+
+a.hamlink {
+  color: #f4f0e7;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 30px;
 }
 
 @media (max-width: 550px) {
@@ -539,7 +560,8 @@ p.reserror {
   }
 
   .mid {
-    height: 30px;
+    height: 500px;
+    overflow: hidden;
   }
 
   p.deals {
@@ -548,7 +570,7 @@ p.reserror {
 
   .section3 {
     padding: 3px;
-    height: 400px;
+    height: 4000px;
   }
 
   .footer {
@@ -571,6 +593,10 @@ p.reserror {
     display: block;
   }
 
+  .hamicon {
+    display: block;
+  }
+
   .dealsmenu {
     margin-left: 15px;
   }
@@ -578,22 +604,35 @@ p.reserror {
   .dealstxt {
     padding: 15px;
   }
-}
-@keyframes xfade {
-  0% {
-    opacity: 1;
+
+  .testimonial {
+    height: 150px;
   }
-  10.5% {
-    opacity: 1;
+
+  .testimoniallight {
+    height: 150px;
   }
-  12.5% {
-    opacity: 0;
+
+  .cta {
+    height: 230px;
+    margin-top: 30px;
   }
-  98% {
-    opacity: 0;
+
+  .menuhead {
+    height: 400px;
   }
-  100% {
-    opacity: 1;
+
+  .contactcontain1 {
+    margin-top: 30px;
+    height: 400px;
+  }
+
+  .contactcontain2 {
+    margin-top: 30px;
+  }
+
+  .offer4 {
+    margin-bottom: 30px;
   }
 }
 

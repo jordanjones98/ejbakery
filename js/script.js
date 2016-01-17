@@ -11,7 +11,7 @@ $(document).ready(function(){
     $(".hamfade").fadeToggle();
     $(".hamicon").toggleClass('fa-bars');
     $(".hamicon").toggleClass('fa-times');
-    $("body").css("overflow", "hidden");
+    $("body").toggleClass('menuopen');
   });
 });
 
